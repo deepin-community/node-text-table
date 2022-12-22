@@ -1,0 +1,45 @@
+node-text-table (0.2.0-4) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+
+  [ Yadd ]
+  * Declare compliance with policy 4.6.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Fix filenamemangle
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs auto install
+  * Drop dependency to nodejs
+  * Enable upstream test (tape)
+
+ -- Yadd <yadd@debian.org>  Tue, 02 Nov 2021 18:10:01 +0100
+
+node-text-table (0.2.0-3) unstable; urgency=medium
+
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Sat, 28 Aug 2021 23:17:19 +0100
+
+node-text-table (0.2.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Reupload to unstable
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 10 Nov 2017 15:33:17 +0530
+
+node-text-table (0.2.0-1) experimental; urgency=low
+
+  * Initial release (Closes: #853031)
+
+ -- akash <akashsarda3@gmail.com>  Sun, 29 Jan 2017 17:45:46 +0000

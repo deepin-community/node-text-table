@@ -1,0 +1,1 @@
+tape -J `ls test/*.js|grep -v test/ansi-color`
